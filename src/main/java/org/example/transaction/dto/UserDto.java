@@ -1,0 +1,17 @@
+package org.example.transaction.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+
+public class UserDto {
+
+    private String username;
+    private String surname;
+    private String phoneNumber;
+    private String email;
+}
