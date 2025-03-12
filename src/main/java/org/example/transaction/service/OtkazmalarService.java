@@ -25,6 +25,7 @@ public class OtkazmalarService {
     }
     public Result save(OtkazmalarDto otkazmalarDto){
         Otkazmalar otkazmalar = new Otkazmalar();
-        otkazmalar.setDescription();
+        otkazmalar.setDescription(otkazmalar.getDescription());
+        return new Result(true , "save");
     }
 }
